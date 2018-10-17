@@ -1,0 +1,30 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint *.js"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mruminski/module18.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mruminski/module18/issues"
+  },
+  "homepage": "https://github.com/mruminski/module18#readme",
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-plugin-react": "^7.11.1",
+    "express": "^4.16.4",
+    "pre-commit": "^1.2.2",
+    "socket.io": "^2.1.1"
+  }
+}
