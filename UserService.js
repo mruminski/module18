@@ -7,7 +7,7 @@ class UserService {
     return this.users; 
   }
 
-  getUserById(userId) {
+  getUsersById(userId) {
     return this.users.find(user => user.id === userId);
   }
 

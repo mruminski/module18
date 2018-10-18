@@ -5,7 +5,10 @@ module.exports = {
         "commonjs": true,
         "es6": true
     },
-    "extends": "eslint:recommended",
+    "extends": [
+        'eslint:recommended',
+        'plugin:react/recommended'
+    ],
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -33,6 +36,7 @@ module.exports = {
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "react/prop-types": 0
     }
 };
