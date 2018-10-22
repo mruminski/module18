@@ -22,7 +22,7 @@ io.on('connection', (socket) => {
       users: usersService.getAllUsers()
     });
   });
-  socket.on('dicconnect', (socket) => {
+  socket.on('disconnect', () => {
     usersService.removeUser(socket.id);
     socket.broadcast.emit('update', {
       users: usersService.getAllUsers()
