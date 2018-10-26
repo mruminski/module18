@@ -1,4 +1,4 @@
-.MessageForm {
+.message__form {
     display: flex;
     flex-direction: row;
     margin-top: 40px;
@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.MessageInput {
+.message__input {
     flex: 1;
     padding: 20px;
     border: 0;

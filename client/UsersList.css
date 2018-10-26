@@ -1,4 +1,4 @@
-.Users {
+.users {
     display: flex;
     flex: 1;
     margin-left: 25px;
@@ -8,19 +8,19 @@
     color: #d33682;
 }
 
-.UsersOnline {
+.users__online {
     padding: 20px;
     text-align: center;
     background: #ccc;
 }
 
-.UsersList {
+.users__list {
     border-right: 1px solid #ccc;
     margin: 0;
     padding: 0;
 }
 
-.UserItem {
+.user__item {
     list-style: none;
     padding: 20px;
     margin: 0 0 0 20px;

@@ -2,19 +2,19 @@ body {
     margin: 10px 0 0;
 }
 
-.App {
+.app {
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
-.AppHeader {
+.app__header {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.AppTitle {
+.app__title {
     display: flex;
     width: 25vw;
     border-right: 1px solid #ccc;
@@ -23,7 +23,7 @@ body {
     padding: 20px;
 }
 
-.AppRoom {
+.app__room {
     display: flex;
     width: 75vw;
     justify-content: center;
@@ -31,13 +31,13 @@ body {
     padding: 20px;
 }
 
-.AppBody {
+.app__body {
     display: flex;
     flex-direction: row;
     flex: 1;
 }
 
-.MessageWrapper {
+.message__wrapper {
     display: flex;
     flex-direction: column;
     width: 75vw;

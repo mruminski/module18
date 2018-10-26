@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import styles from './MessageForm.css';
 
 class MessageForm extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {text: ''};
   }
 
@@ -24,9 +24,9 @@ class MessageForm extends Component {
 
   render() {
     return (
-      <form className={styles.MessageForm} onSubmit={e => this.handleSubmit(e)}>
+      <form className={styles.message__form} onSubmit={e => this.handleSubmit(e)}>
         <input 
-          className={styles.MessageInput}
+          className={styles.message__input}
           onChange={e => this.changeHandler(e)}
           value={this.state.text}
           placeholder='Message'/>

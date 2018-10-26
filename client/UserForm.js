@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import styles from './UserForm.css';
 
 class UserForm extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {name: ''};
   }
   handleSubmit(e) {
@@ -17,9 +17,9 @@ class UserForm extends Component {
 
   render() {
     return (
-      <form className={styles.UserForm} onSubmit={e => this.handleSubmit(e)}>
+      <form className={styles.user__form} onSubmit={e => this.handleSubmit(e)}>
         <input
-          className={styles.UserInput}
+          className={styles.user__input}
           placeholder='Put your nickname and press enter'
           onChange={e => this.handleChange(e)}
           value={this.state.name}/>

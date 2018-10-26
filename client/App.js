@@ -10,8 +10,8 @@ import UsersList from './UsersList';
 const socket = io('/');
 
 class App extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       users: [],
       messages: [],
@@ -51,15 +51,15 @@ class App extends Component {
 
   renderLayout() {
     return (
-      <div className={styles.App}>
-        <div className={styles.AppHeader}>
-          <div className={styles.AppTitle}>
+      <div className={styles.app}>
+        <div className={styles.app__header}>
+          <div className={styles.app__title}>
             Chat
           </div>
-          <div className={styles.AppBody}>
+          <div className={styles.app__body}>
             <UsersList users={this.state.users}/>
           </div>
-          <div className={styles.MessageWrapper}>
+          <div className={styles.message__wrapper}>
             <MessageList messages={this.state.messages}/>
             <MessageForm
               onMessageSubmit={message => this.handleMessageSubmit(message)}

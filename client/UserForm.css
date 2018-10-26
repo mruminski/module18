@@ -1,4 +1,4 @@
-.UserForm {
+.user__form {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,7 +6,7 @@
     height: 100vh;
 }
 
-.UserInput {
+.user__input {
     padding: 20px;
     font-size: 2em;
     border: 0;
