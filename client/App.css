@@ -1,0 +1,45 @@
+body {
+    margin: 10px 0 0;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.app__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.app__title {
+    display: flex;
+    width: 25vw;
+    border-right: 1px solid #ccc;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.app__room {
+    display: flex;
+    width: 75vw;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.app__body {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.message__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    flex: 1;
+}

@@ -1,0 +1,13 @@
+.message__form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    height: 25px;
+    justify-content: center;
+}
+
+.message__input {
+    flex: 1;
+    padding: 20px;
+    border: 0;
+}
